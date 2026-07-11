@@ -20,7 +20,7 @@
 
 title: Eli Chadwick
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "elichad.net" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://elichad.net" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: elichad
 
 # Build settings
@@ -47,3 +47,10 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+whitelist:
+  - jekyll-redirect-from
+
+minima:
+  nav_pages:
+    - index.md
