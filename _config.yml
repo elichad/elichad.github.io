@@ -51,6 +51,5 @@ plugins:
 whitelist:
   - jekyll-redirect-from
 
-minima:
-  nav_pages:
-    - index.md
+header_pages:
+  - index.md
